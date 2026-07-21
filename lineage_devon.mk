@@ -35,6 +35,3 @@ TARGET_CUSTOM_UDFPS := false
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# AxionFx
-$(call inherit-product-if-exists, packages/apps/AxionFx/config.mk)
