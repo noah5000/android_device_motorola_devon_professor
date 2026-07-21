@@ -29,14 +29,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-19/565799-307aa:user/release-keys \
     DeviceProduct=devon_g
 
-# Lunaris Stuff
-WITH_GMS := false
-SURFACE_FLINGER_BOOST := false
-TARGET_USE_MAPS := false
-TARGET_CUSTOM_UDFPS := false
-$(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
-$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
-TARGET_BOOT_ANIMATION_RES := 1080
+so we don't have define this in lunaris branch "INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := noah5000
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 1080"
 
 # AxionFx
 $(call inherit-product-if-exists, packages/apps/AxionFx/config.mk)
