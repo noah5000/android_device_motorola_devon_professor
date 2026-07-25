@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_devon.mk
+    $(LOCAL_DIR)/lineage_devon.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_devon-user \
-    infinity_devon-userdebug \
-    infinity_devon-eng
+    lineage_devon-user \
+    lineage_devon-userdebug \
+    lineage_devon-eng
