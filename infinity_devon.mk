@@ -30,7 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=devon_g
 
 so we don't have define this in lunaris branch "INFINITY_BUILD_TYPE := UNOFFICIAL
-INFINITY_MAINTAINER := noah5000
+INFINITY_MAINTAINER := Hades
 TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080"
