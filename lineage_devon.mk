@@ -26,3 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="devon_g-user 13 T2SNS33.73-22-3-19 565799-307aa release-keys" \
     BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-19/565799-307aa:user/release-keys \
     DeviceProduct=devon_g
+
+#alpha droid stuff
+ALPHA_MAINTAINER := Hades
+TARGET_BOOT_ANIMATION_RES := 1080
