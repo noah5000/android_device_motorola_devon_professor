@@ -7,6 +7,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/alpha_devon.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_devon-bp4a-user \
-    infinity_devon-bp4a-userdebug \
-    infinity_devon-bp4a-eng
+    alpha_devon-bp4a-user \
+    alpha_devon-bp4a-userdebug \
+    alpha_devon-bp4a-eng
