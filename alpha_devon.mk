@@ -13,6 +13,9 @@ $(call inherit-product, device/motorola/devon/device.mk)
 # Lineage build flags
 PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
 
+# Disable GSI
+PRODUCT_BUILD_SYSTEM_IMAGE := false
+
 # Device config
 TARGET_HAS_UDFPS := false
 TARGET_SUPPORTS_BLUR := true
