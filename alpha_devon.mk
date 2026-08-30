@@ -13,13 +13,17 @@ $(call inherit-product, device/motorola/devon/device.mk)
 # Lineage build flags
 PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
 
-# Disable GSI
-PRODUCT_BUILD_SYSTEM_IMAGE := false
+# Disable GSI checks
+BUILDING_GSI := false
+
+# Calendar
+PRODUCT_PACKAGES += \
+    Calendar
 
 # Device config
 TARGET_HAS_UDFPS := false
 TARGET_SUPPORTS_BLUR := true
-TARGET_EXCLUDES_AUDIOFX := yes
+TARGET_EXCLUDES_AUDIOFX := no
 TARGET_FACE_UNLOCK_SUPPORTED := yes
 
 # Build config
