@@ -13,6 +13,12 @@ $(call inherit-product, device/motorola/devon/device.mk)
 # Lineage build flags
 PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
 
+ALLOW_MISSING_DEPENDENCIES := true
+
+# Exclude missing apps
+PRODUCT_PACKAGES_EX += \
+    Calendar
+
 # Disable GSI checks
 BUILDING_GSI := false
 
