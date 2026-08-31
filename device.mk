@@ -67,15 +67,6 @@ $(foreach DEVICE_SKU, $(DEVICE_SKUS), \
 BOARD_SHIPPING_API_LEVEL := 30
 PRODUCT_SHIPPING_API_LEVEL := 31
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
-hardware/oplus \
-    hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
-    hardware/pixelworks/interfaces \
-    hardware/qcom-caf/common/libqti-perfd-client
 
 # Vendor ramdisk
 PRODUCT_COPY_FILES += \
