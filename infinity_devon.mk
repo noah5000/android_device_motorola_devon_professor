@@ -10,11 +10,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/devon/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common infinity stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_devon
+PRODUCT_NAME := infinity_devon
 PRODUCT_DEVICE := devon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g32
@@ -26,3 +26,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="devon_g-user 13 T2SNS33.73-22-3-19 565799-307aa release-keys" \
     BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-19/565799-307aa:user/release-keys \
     DeviceProduct=devon_g
+
+INFINITY_MAINTAINER := Hades
+TARGET_HAS_UDFPS := false
+WITH_GAPPS := false
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.marketname=moto g32 \
+    ro.infinity.soc=Snapdragon 680 \
+    ro.infinity.camera=50MP + 8MP + 2MP
