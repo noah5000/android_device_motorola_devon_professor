@@ -59,3 +59,12 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
 
 # Inherit from the proprietary version
 include vendor/motorola/devon/BoardConfigVendor.mk
+
+# lunaris dolby
+include vendor/lunaris/dolby/BoardConfigDolby.mk
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    vendor/lunaris/dolby/vintf/dolby_framework_compatibility_matrix.xml
+
+DEVICE_MANIFEST_FILE += \
+    vendor/lunaris/dolby/vintf/dolby_manifest.xml
