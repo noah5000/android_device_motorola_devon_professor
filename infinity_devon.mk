@@ -30,6 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 INFINITY_MAINTAINER := Hades
 TARGET_HAS_UDFPS := false
 WITH_GAPPS := false
+TARGET_SUPPORTS_BLUR := true
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.marketname=moto g32 \
