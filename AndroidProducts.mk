@@ -7,6 +7,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aospa_devon.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_devon-user \
-    infinity_devon-userdebug \
+    aospa_devon-user \
+    aospa_devon-userdebug \
     aospa_devon-eng
