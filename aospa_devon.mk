@@ -31,7 +31,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-19/565799-307aa:user/release-keys \
     DeviceProduct=devon_g
 
-INFINITY_MAINTAINER := Hades
+AOSPA_MAINTAINER := Hades
 TARGET_HAS_UDFPS := false
 WITH_GAPPS := false
 
