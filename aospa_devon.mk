@@ -35,7 +35,3 @@ AOSPA_MAINTAINER := Hades
 TARGET_HAS_UDFPS := false
 WITH_GAPPS := false
 
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.product.marketname=moto g32 \
-    ro.infinity.soc=Snapdragon 680 \
-    ro.infinity.camera=50MP + 8MP + 2MP
