@@ -31,6 +31,7 @@ rr_MAINTAINER := Hades
 TARGET_HAS_UDFPS := false
 WITH_GAPPS := false
 TARGET_SUPPORTS_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.marketname=moto g32 \
